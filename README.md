@@ -1,10 +1,12 @@
 # Terminal
 
 dierick@dewi:~$ ls
+
 Bureau     examples.desktop      Modèles  snap             www
 Documents  Images                Musique  Téléchargements
 Downloads  install-gnome-themes  Public   Vidéos
 dierick@dewi:~$ pwd
+
 /home/dierick
 dierick@dewi:~$ ls -l /bin
 total 12480
