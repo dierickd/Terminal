@@ -1,0 +1,115 @@
+dierick@dewi:~/quetes/shell/planets$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   ├── earth.jpeg
+│   └── mars.jpeg
+└── real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
+
+5 directories, 15 files
+dierick@dewi:~/quetes/shell/planets$ 
+
+
+##########################################
+########## Command history ###############
+##########################################
+
+
+wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+  512  unzip planets.zip
+  513  eog planets
+  514  ls
+  515  cd planets
+  516  ls
+  517  mkdir real fictional inhabited
+  518  ls
+  519  cd real
+  520  mkdir telluric gas-giants dwarf-planets
+  521  ls
+  522  cd
+  523  cd quete/shell/planets
+  524  cd quetes/shell/planets
+  525  ls
+  526  mv earth.jpeg real/telluric/
+  527  ls
+  528  ls real
+  529  ls real/telluric
+  530  mv mercury.jpeg venus.jpeg mars.jpeg real/gas-giants/
+  531  ls
+  532  ls real/gas-giants
+  533  mv real/gas-giant/mercury.jpeg real/gas-giant/venus.jpeg real/gas-giant/mars.jpeg real/telluric/
+  534  pwd
+  535  ls
+  536  mv real/gas-giants/mercury.jpeg real/gas-giants/venus.jpeg real/gas-giants/mars.jpeg real/telluric/
+  537  ls real/telluric
+  538  ls
+  539  mv *.jpeg real/dwarf-planets/
+  540  ls
+  541  mv real/dwarf-planets/arrakis.jpeg real/dwarf-planets/cybetron.jpeg real.dwarf-planets/coruscant.jpeg fictional/
+  542  mv real/dwarf-planets/cybertron.jpeg real/dwarf-planets/coruscant.jpeg fictional/
+  543  ls real/fictional
+  544  ls fictional
+  545  cp real/telluric/earth.jpeg real/telluric/mars.jpeg real/dwarf-planets/coruscant.jpeg real/dwarf-planets/cybertron.jpeg inhabited/
+  546  ls real/dwarf-planets
+  547  cp real/fictional/coruscant.jpeg real/fictional/cybertron.jpeg inhabited/
+  548  ls real/fictional
+  549  ls real/telluric
+  550  ls real/dwarf-planets
+  551  ls real/gas-giants
+  552  ls
+  553  ls real
+  554  ls real -l
+  555  ls inhabited -l
+  556  tree
+  557  cp fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited/
+  558  tree
+  559  mv real/dwarf-planets/jupiter.jpeg real/dwarf-planets/saturn.jpeg real/dwarf-planets/uranus.jpeg real/dwarf-planets/neptune.jpeg real/gas-giants/
+  560  tree
+  561  rmdir -R real/dwarf-planets/
+  562  rmdir --help
+  563  rmdir -p real/dwarf-planets/pluto.jpeg
+  564  rm -p real/dwarf-planets/pluto.jpeg
+  565  rm --help
+  566  tree
+  567  rmdir real/dwarf-planets
+  568  rmdir -r real/dwarf-planets
+  569  rm real/dwarf-planets/pluto.jpeg
+  570  tree
+  571  rmdir real/dwarf-planets
+  572  tree
+  573  history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
